@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--author: Austin Foulks
+afoulks404@gmail.com-->
+<html>
+<script src="code.js"></script>
+
+<head>
+    <title>
+        UAT Space Page
+    </title>
+</head>
+
+<body>
+
+    <body style="background-color:aquamarine;">
+        <img src="UATspaceLogo-2-1.jpg">
+        <style>
+            p.ex1 {
+                font-size: 30px;
+            }
+        </style>
+        <h1>
+            <p class="ex1">UAT Space Program</p>
+        </h1>
+
+        <script>
+            document.write("Testing, can you hear me Houston?"); 
+        </script>
+        <p>
+            Loud and clear.
+        </p>
+        <br>
+        <p style="color:red" ;>Launch will be starting soon. </p>
+
+        <script>
+            /*I want credit for alert function 
+            (reference https://synchronic.uat.edu/courses/3843/assignments/137161?module_item_id=345092) 
+            so here it is...*/
+            alert("This is a restricted airspace.");
+        </script>
+        <br>
+        <p id="ctdnTimer">Countdown Timer Results:</p>
+        <br>
+        <button onclick="countdownTimer();">Start</button>
+        <button>Stop</button>
+        <br>
+        <br>
+        <p id="die1Res">die1 Results</p>
+        <p id="die2Res">die2 Results</p>
+        <p id="sumRes">Sum Results</p>
+        <p id="finalRes">Final Results</p>
+        <button onclick="play();">Play Craps</button>
+        <br>
+        <p id="RndNum">Random Number Results</p>
+        <br>
+        <button onclick="ranNumGen();">Random Number</button>
+
+    </body>
+
+</html>
